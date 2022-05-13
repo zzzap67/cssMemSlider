@@ -102,7 +102,6 @@ input {
   display: none;
 }
 
-
 #selected-slide1:checked ~ .slider > .slides-list {
   transform: translateX(0%);
 }
@@ -143,7 +142,6 @@ input {
   transform: translateX(-400%);
 }
 
-
 /***********************************/
 
 .control-label {
@@ -174,11 +172,6 @@ span {
   border: 0.15rem solid #ff6805;
 }
 
-
-
-
-
-
 #selected-slide1:checked ~ .controls > .controls-list > .control-label:nth-child(1) > span {
   background-color: #ff6805;
   border: 0.15rem solid #ff6805;
@@ -187,8 +180,6 @@ span {
 #selected-slide1:checked ~ .controls > .controls-list > .control-label:nth-child(1):hover span {
   border-color: #203ec7;
 }
-
-
 
 #selected-slide2:checked ~ .controls > .controls-list > .control-label:nth-child(2) > span {
   background-color: #ff6805;
