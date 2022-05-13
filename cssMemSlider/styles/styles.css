@@ -235,3 +235,27 @@ span {
 
 
 
+@media  (max-width: 500px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr 1fr 1fr;
+    gap: 3% 1%;
+    grid-template-areas:
+      "slider"
+      "controls"
+      "slidename";
+    width: 80vw;
+
+  }
+
+  .controls {
+    justify-content: center;
+
+  }
+
+  span {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+}
