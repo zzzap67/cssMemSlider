@@ -10,7 +10,6 @@ body {
 }
 
 .wrapper {
-
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 6fr 1fr;
@@ -102,10 +101,6 @@ body {
 input {
   display: none;
 }
-
-
-
-
 
 
 #selected-slide1:checked ~ .slider > .slides-list {
@@ -257,5 +252,9 @@ span {
   span {
     width: 0.7rem;
     height: 0.7rem;
+  }
+
+  .slidename {
+    font-size: 1.1rem;
   }
 }
